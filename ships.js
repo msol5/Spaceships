@@ -12,7 +12,7 @@ function setup() {
     background("black");
     noStroke();
     loadJSON("http://api.open-notify.org/astros.json", dataReceived);
-    space = loadJSON("https://api.open-notify.org/astros.json");
+    space = loadJSON("http://api.open-notify.org/astros.json");
 }
 class Ship {
     constructor(cColor, x, y) {
