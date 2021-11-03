@@ -11,8 +11,8 @@ function setup() {
     createCanvas(windowWidth, windowHeight);
     background("black");
     noStroke();
-    loadJSON("http://api.open-notify.org/astros.json", dataReceived);
-    space = loadJSON("http://api.open-notify.org/astros.json");
+    loadJSON("https://raw.githubusercontent.com/msol5/Spaceships/main/astros.json", dataReceived);
+    space = loadJSON("https://raw.githubusercontent.com/msol5/Spaceships/main/astros.json");
 }
 class Ship {
     constructor(cColor, x, y) {
